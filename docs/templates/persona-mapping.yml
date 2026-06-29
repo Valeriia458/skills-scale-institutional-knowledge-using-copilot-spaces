@@ -1,0 +1,73 @@
+personas:
+  - id: engineering_manager
+    display_name: "Engineering Manager"
+    responsibilities:
+      - "Capacity planning"
+      - "People development"
+      - "Technical oversight"
+    contacts:
+      - role: project_manager
+      - role: product_manager
+
+  - id: ux_researcher
+    display_name: "UX Researcher / Designer"
+    responsibilities:
+      - "User research"
+      - "Design acceptance"
+    contacts:
+      - role: product_manager
+      - role: developers
+
+  - id: release_manager
+    display_name: "Release Manager"
+    responsibilities:
+      - "Release coordination"
+      - "Rollback planning"
+    contacts:
+      - role: devops
+      - role: project_manager
+
+  - id: devops
+    display_name: "DevOps / Platform Engineer"
+    responsibilities:
+      - "CI/CD maintenance"
+      - "Observability"
+    contacts:
+      - role: developers
+      - role: security_liaison
+
+  - id: customer_success
+    display_name: "Customer Success / Support Lead"
+    responsibilities:
+      - "Customer communications"
+      - "Support prioritization"
+    contacts:
+      - role: product_manager
+      - role: project_manager
+
+  - id: data_analyst
+    display_name: "Data Analyst"
+    responsibilities:
+      - "Instrumentation"
+      - "Metrics tracking"
+    contacts:
+      - role: product_manager
+      - role: developers
+
+  - id: security_liaison
+    display_name: "Security Liaison"
+    responsibilities:
+      - "Security reviews"
+      - "Incident participation"
+    contacts:
+      - role: devops
+      - role: engineering_manager
+
+  - id: program_manager
+    display_name: "Program / Portfolio Manager"
+    responsibilities:
+      - "Cross-project coordination"
+      - "Consolidated reporting"
+    contacts:
+      - role: project_manager
+      - role: product_lead
